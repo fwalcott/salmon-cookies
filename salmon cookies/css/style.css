@@ -11,7 +11,7 @@ body {
 			text-align: center;
 			} 
 
-	div.logo {
+	.logo {
 	height: 150px;    
 	width: 80px; 
 	padding: 10px 0px 5px 0px; 
@@ -20,7 +20,7 @@ body {
   align-items: center
 }
 			
-		#nav {
+		.nav {
 			font-family: Arial, Helvetica, sans-serif;
 			font-size: 24px;
 			font-weight: bold; 
@@ -72,3 +72,22 @@ body {
 			border-style: hidden;
 		} 
 
+#nav li {
+	display: inline-block; 
+	font-size: 20px;
+	padding-left: 150px;  
+	padding-right: 150px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+			font-size: 24px;
+			font-weight: bold; 
+			text-align: center; 
+			color: red;
+} 
+
+.div pic {
+		border: 2px solid red;    
+		height: 250px;  
+		width: 250px;     
+		display: block;
+float: center;
+}
